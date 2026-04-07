@@ -301,3 +301,5 @@ Before proceeding to Lab 2, verify:
 ---
 
 **Next:** [Lab 2 — Connectivity, Client Options & Authentication](lab-02-connectivity.md)
+
+**Optional:** [Lab 1B — Hands-On Cosmos DB Exploration (No Code)](lab-1b-ops-explore.md) — for Ops/QA: create containers manually, import data via VS Code, run queries, and observe metrics without writing Java code.

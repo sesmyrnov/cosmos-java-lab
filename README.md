@@ -53,6 +53,7 @@ mvn clean compile
 | # | Lab | Duration | Topic |
 |---|-----|----------|-------|
 | 1 | [Setup & Deployment](labs/lab-01-setup.md) | 15 min | Azure/Emulator setup, SSL certs, database creation |
+| 1B | [Ops/QA Exploration (Optional)](labs/lab-1b-ops-explore.md) | 20 min | Create containers manually, import JSON via VS Code, queries & metrics |
 | 2 | [Connectivity & Auth](labs/lab-02-connectivity.md) | 10 min | Singleton pattern, Direct vs Gateway, Key vs Entra ID |
 | 3 | [Containers & Bulk Load](labs/lab-03-containers-bulkload.md) | 15 min | Partition keys, data modeling, loading 150 documents |
 | 4 | [CRUD Operations](labs/lab-04-crud.md) | 20 min | Create, Read, Replace (ETag), Patch, Delete |
@@ -71,6 +72,7 @@ cosmos-java-lab/
 ├── pom.xml                                ← Maven dependencies (Cosmos SDK v4.65.0)
 ├── labs/
 │   ├── lab-01-setup.md                    ← Setup instructions
+│   ├── lab-1b-ops-explore.md              ← (Optional) Ops/QA: UI-based exploration
 │   ├── lab-02-connectivity.md             ← Connectivity & auth
 │   ├── lab-03-containers-bulkload.md      ← Container creation & data loading
 │   ├── lab-04-crud.md                     ← CRUD operations
